@@ -46,6 +46,6 @@ counter = 0
     if counter >= 9
       break
     end
-    # binding.pry
+    binding.pry
   end
 end

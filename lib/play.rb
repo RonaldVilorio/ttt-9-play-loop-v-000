@@ -46,6 +46,5 @@ counter = 0
     if counter >= board.length
       break
     end
-    binding.pry
   end
 end

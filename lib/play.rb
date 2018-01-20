@@ -43,7 +43,7 @@ counter = 0
   loop do
     counter += 1
     turn(board)
-    if counter >= 9
+    if counter >= board.length
       break
     end
     binding.pry
